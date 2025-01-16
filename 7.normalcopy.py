@@ -1,0 +1,10 @@
+s=[10,20,[50,60,78]]
+d=s
+print(s)
+print(d)
+s[1]=200
+print(s)
+print(d)
+d[2][1]=30
+print(s)
+print(d)
