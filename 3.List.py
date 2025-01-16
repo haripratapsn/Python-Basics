@@ -1,0 +1,12 @@
+l=[1,'Hari',2.1,True,1,[34,54],{54,65},('hari','last'),{'ename':'nari','name':'name1'}]
+print(l)
+l.append(69)
+print(l)
+l.insert(1,'Bro')
+print(l)
+l.pop()
+print(l)
+l.remove('Bro')
+print(l)
+print(l.index(1))
+print(l[7][1][1])
