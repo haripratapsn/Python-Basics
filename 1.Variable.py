@@ -1,0 +1,10 @@
+a=10
+b=9.2
+name='thanos'
+gender='m'
+result=False
+print(a,type(a))
+print(b,type(b))
+print(name,type(name))
+print(gender,type(gender))
+print(result,type(result))
