@@ -1,5 +1,16 @@
 # Finding Fibonacci Series
 
-a=int(input("Enter a Number: "))
-b=int(input("Enter b Number: "))
-small=min(a,b)
+n=int(input("Enter n Number: "))
+if (n==0):
+    print(1)
+elif (n==1):
+    print(1,1)
+else:
+    print(1,1,end="")
+    a=1
+    b=1
+    for i in range(2,n+1):
+        c=a+b
+        print(c,end="")
+        a=b
+        b=c
