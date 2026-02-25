@@ -5,7 +5,7 @@ class Shape(ABC):
         self.name=name
     @abstractmethod
     def draw(name):
-        return
+        pass
     @abstractmethod
     def getArea(length,width):
-        return
+        pass
