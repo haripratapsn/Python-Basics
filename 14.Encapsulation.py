@@ -20,6 +20,14 @@ class Person():
     @name.setter
     def name(self,name):
         self.__name=name
+
+o=Person("hari",22)
+print(o._Person__name)
+class Animal:
+    pass
+
+lion = Animal()
+print(type(lion))
     
     
     

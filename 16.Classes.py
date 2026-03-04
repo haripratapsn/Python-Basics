@@ -20,3 +20,5 @@ class Parent(Employee):
     def __init__(self,name,designation):
         super().__init__(name)
         super().designation
+
+            
